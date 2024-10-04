@@ -32,7 +32,6 @@ The system architecture includes a robust backend built with Python, a user-frie
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/Pranjal-88/Digital-Dots.git
-    cd Team-58
     ```
 
 2. **Backend Setup**: Navigate to the backend directory and follow the instructions to set up the Python environment and dependencies.
