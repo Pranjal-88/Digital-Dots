@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging App</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Chat Bot</h1>
+        </header>
+        <div class="chat-box" id="chat-box">
+        
+            {% for chat in user.chats.all %}
+            <div class="message sent">
+                <div class="message-content">
+                    <p>{{chat.message}}</p>
+                    <span class="timestamp">{{chat.time}}</span>
+                </div>
+                <div class="avatar2"><img src="{% static '3da39-no-user-image-icon-27.webp' %}" alt="Avatar"></div>
+            </div>
+
+            <div class="message received">
+                <div class="avatar"><img src="{% static '3da39-no-user-image-icon-27.webp' %}" alt="Avatar"></div>
+                <div class="message-content">
+                    <p>{{chat.response}}</p>
+                   
+                </div>
+            </div>
+            {% endfor %}
+        <hr>
+        <hr>
+        </div>
+        <div class="message-input">
+            <form method="POST" action="">
+                {% csrf_token %}
+                <input type="text" name="msg" placeholder="Ask anything..." autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

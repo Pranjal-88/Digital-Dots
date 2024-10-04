@@ -1,0 +1,40 @@
+.profile {
+  margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .profile-name {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .profile-attendance {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .profile-chart {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+  }
+  

@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00000012;
+    margin: 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Changed to min-height for full page height */
+}
+
+.chat-header {
+    background-color: #383737;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #454444;
+    /* Ensure the following line is added to manage scrolling */
+    max-height: calc(100vh - 140px); /* Adjust according to your layout */
+}
+
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.message.sent {
+    justify-content: flex-end;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.avatar2 {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.avatar2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.message-content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+}
+
+.message.sent .message-content {
+    align-self: flex-end;
+    background-color: #007BFF;
+    color: white;
+}
+
+.message.received .message-content {
+    align-self: flex-start;
+    background-color: #454444;
+    color: white;
+}
+
+.message p {
+    margin: 0;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #ffffff;
+    text-align: right;
+}
+
+.message-input {
+    display: flex;
+    padding: 10px;
+    background-color: #383737;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed; /* Changed to fixed position */
+    bottom: 0;
+    left: 0;
+}
+
+.message-input form {
+    display: flex;
+    width: 100%;
+}
+
+.message-input input {
+    background-color: #616060;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #383737;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+    /* color: white; */
+}
+
+.message-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #616060;
+    color: white;
+    cursor: pointer;
+}
+
+.message-input input::placeholder {
+    color: white; /* Placeholder text color */
+}
+
+.message-input button:hover {
+    background-color: #525151;
+}

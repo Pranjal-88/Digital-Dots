@@ -1,0 +1,123 @@
+.image-slider {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(154, 101, 51, 0) 0%, rgba(197, 162, 129, 0.3) 100%);
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 1rem;
+    position: relative;
+}
+
+.image-slider__title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.image-slider__subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.image-slider__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.image-slider__image {
+    width: 90%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-slider__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.image-slider__button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-slider__button:first-of-type {
+    left: 1rem;
+}
+
+.image-slider__button:last-of-type {
+    right: 1rem;
+}
+
+.image-slider__searchbar {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 1rem;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .image-slider__title {
+        font-size: 1.5rem;
+    }
+
+    .image-slider__subtitle {
+        font-size: 0.875rem;
+    }
+
+    .image-slider__button {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .image-slider__searchbar {
+        width: 90%;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-slider{
+        margin-bottom: 300px;
+    }
+    .image-slider__title {
+        font-size: 1.25rem;
+    }
+
+    .image-slider__subtitle {
+        font-size: 0.75rem;
+    }
+
+    .image-slider__button {
+        width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.875rem;
+    }
+
+    .image-slider__searchbar {
+        width: 100%;
+        position: absolute;
+        top: 140%;
+        padding: 0.5rem;
+        box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+    }
+}

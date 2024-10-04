@@ -1,0 +1,22 @@
+export const STUDENTS = [
+    { id: 1, name: 'Aarav Patel', city: 'Mumbai', contact: '789454648', email: 'aarav.patel@example.com', perc: '80%' },
+    { id: 2, name: 'Diya Sharma', city: 'Delhi', contact: '876548392', email: 'diya.sharma@example.com', perc: '75%' },
+    { id: 3, name: 'Vivaan Gupta', city: 'Bangalore', contact: '983746582', email: 'vivaan.gupta@example.com', perc: '82%' },
+    { id: 4, name: 'Ananya Reddy', city: 'Hyderabad', contact: '675849302', email: 'ananya.reddy@example.com', perc: '78%' },
+    { id: 5, name: 'Kabir Kumar', city: 'Chennai', contact: '758392015', email: 'kabir.kumar@example.com', perc: '79%' },
+    { id: 6, name: 'Myra Joshi', city: 'Kolkata', contact: '489273510', email: 'myra.joshi@example.com', perc: '85%' },
+    { id: 7, name: 'Advik Singh', city: 'Pune', contact: '264738509', email: 'advik.singh@example.com', perc: '77%' },
+    { id: 8, name: 'Aadhya Sharma', city: 'Ahmedabad', contact: '786541230', email: 'aadhya.sharma@example.com', perc: '81%' },
+    { id: 9, name: 'Arjun Mehta', city: 'Jaipur', contact: '901827345', email: 'arjun.mehta@example.com', perc: '76%' },
+    { id: 10, name: 'Zara Patel', city: 'Lucknow', contact: '574892031', email: 'zara.patel@example.com', perc: '80%' },
+    { id: 11, name: 'Aryan Khanna', city: 'Surat', contact: '235487690', email: 'aryan.khanna@example.com', perc: '83%' },
+    { id: 12, name: 'Ishaan Singhania', city: 'Nagpur', contact: '983274615', email: 'ishaan.singhania@example.com', perc: '74%' },
+    { id: 13, name: 'Avni Kapoor', city: 'Indore', contact: '657893214', email: 'avni.kapoor@example.com', perc: '88%' },
+    { id: 14, name: 'Vihaan Chopra', city: 'Thane', contact: '248975310', email: 'vihaan.chopra@example.com', perc: '79%' },
+    { id: 15, name: 'Riya Mehra', city: 'Bhopal', contact: '759803421', email: 'riya.mehra@example.com', perc: '84%' },
+    { id: 16, name: 'Shaurya Sharma', city: 'Visakhapatnam', contact: '489623710', email: 'shaurya.sharma@example.com', perc: '72%' },
+    { id: 17, name: 'Anika Singh', city: 'Patna', contact: '127846390', email: 'anika.singh@example.com', perc: '87%' },
+    { id: 18, name: 'Rudra Yadav', city: 'Gurgaon', contact: '567890124', email: 'rudra.yadav@example.com', perc: '76%' },
+    { id: 19, name: 'Aaradhya Sharma', city: 'Chandigarh', contact: '907856341', email: 'aaradhya.sharma@example.com', perc: '80%' },
+    { id: 20, name: 'Reyansh Gupta', city: 'Jaipur', contact: '348762901', email: 'reyansh.gupta@example.com', perc: '81%' }
+];

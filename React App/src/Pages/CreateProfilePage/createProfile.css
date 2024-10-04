@@ -1,0 +1,38 @@
+/* createProfile.css */
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.profile-picture {
+    margin-top: 2rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.labels {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.profile-button {
+    margin-top: 1.5rem;
+}
+
+.add-experience {
+    cursor: pointer;
+    color: #007bff;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-experience:hover {
+    background-color: #d6d8db;
+}

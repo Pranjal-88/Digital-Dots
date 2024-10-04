@@ -1,0 +1,106 @@
+/* src/components/DonationPage.css */
+.donation-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .amount {
+    color:black;
+  }
+  .donation-amounts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .donation-amounts button {
+    padding: 10px 20px;
+    border: 1px solid  #9a65338c;
+    background: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .donation-amounts button.selected {
+    background:  #9a65338c;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form .nationality {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  form .nationality label {
+    display: flex;
+    align-items: center;
+  }
+  
+  form .nationality input {
+    margin-right: 10px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color:  #9a65338c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color:  #9a65338c;
+  }
+  
+  form p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form a {
+    color:  #9a65338c;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+  }
+  
