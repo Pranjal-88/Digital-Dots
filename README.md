@@ -7,7 +7,6 @@
 </head>
 <body>
     <div class="container">
-        
         <!-- Project Overview Section -->
         <div class="section">
             <h2>📄 Project Overview</h2>
@@ -17,7 +16,6 @@
                 and enhance decision-making and student engagement.
             </p>
         </div>
-
         <!-- Features Section -->
         <div class="section">
             <h2>✨ Features</h2>
@@ -33,7 +31,6 @@
                 <li><strong>Alumni Community and NGO Support:</strong> Provides encouragement and support to students, fostering a positive learning environment. Success stories are shared to offer reassurance to families.</li>
             </ul>
         </div>
-
         <!-- Future Enhancements Section -->
         <div class="section">
             <h2>🔮 Future Enhancements</h2>
@@ -42,7 +39,6 @@
                 <li><strong>One-click Email Templates:</strong> Streamline communication with predefined templates for colleges.</li>
             </ul>
         </div>
-
         <!-- Technology Stack Section -->
         <div class="section">
             <h2>🛠️ Technology Stack</h2>
@@ -54,7 +50,6 @@
                 <li><strong>Chatbot:</strong> Gemini</li>
             </ul>
         </div>
-
         <!-- System Architecture Section -->
         <div class="section">
             <h2>🏛️ System Architecture</h2>
@@ -64,14 +59,13 @@
                 and the Gemini chatbot for student support.
             </p>
         </div>
-
         <!-- Installation and Setup Section -->
         <div class="section">
             <h2>⚙️ Installation and Setup</h2>
             <ol>
                 <li><strong>Clone the Repository:</strong>
                     <div class="code">
-                        <code>git clone https://github.com/cfgbengaluru24/Team-58</code><br>
+                        <code>git clone https://github.com/Pranjal-88/Digital-Dots.git</code><br>
                         <code>cd Team-58</code>
                     </div>
                 </li>
