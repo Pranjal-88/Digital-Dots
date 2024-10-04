@@ -7,7 +7,6 @@
 </head>
 <body>
     <div class="container">
-        <!-- Project Overview Section -->
         <div class="section">
             <h2>📄 Project Overview</h2>
             <p>
@@ -59,7 +58,6 @@
                 and the Gemini chatbot for student support.
             </p>
         </div>
-        <!-- Installation and Setup Section -->
         <div class="section">
             <h2>⚙️ Installation and Setup</h2>
             <ol>
